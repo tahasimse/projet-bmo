@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:JavaExtensions="http:///schemas/JavaExtensions/_HEX8UPuSEe-00J9HxD6GXA/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xsi:schemaLocation="http:///schemas/JavaExtensions/_HEX8UPuSEe-00J9HxD6GXA/0 JavaExtensions.profile.xmi#_HFU9R_uSEe-00J9HxD6GXA">
+  <uml:Model xmi:id="_HEX7APuSEe-00J9HxD6GXA" name="projetbmo_baran_taha">
+    <eAnnotations xmi:id="_HEX7AfuSEe-00J9HxD6GXA" source="Objing">
+      <contents xmi:type="uml:Property" xmi:id="_HEX7AvuSEe-00J9HxD6GXA" name="exporterVersion">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_HEX7A_uSEe-00J9HxD6GXA" value="3.0.0"/>
+      </contents>
+    </eAnnotations>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_HEX7BPuSEe-00J9HxD6GXA" name="guest">
+      <ownedComment xmi:id="_HEX7BfuSEe-00J9HxD6GXA">
+        <body>&lt;Enter note text here></body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_HEX7BvuSEe-00J9HxD6GXA" memberEnd="_HEX7B_uSEe-00J9HxD6GXA _HEX7CfuSEe-00J9HxD6GXA" navigableOwnedEnd="_HEX7B_uSEe-00J9HxD6GXA">
+      <ownedEnd xmi:id="_HEX7B_uSEe-00J9HxD6GXA" visibility="public" type="_HEX7C_uSEe-00J9HxD6GXA" isUnique="false" association="_HEX7BvuSEe-00J9HxD6GXA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HEX7CPuSEe-00J9HxD6GXA"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_HEX7CfuSEe-00J9HxD6GXA" visibility="public" type="_HEX7BPuSEe-00J9HxD6GXA" isUnique="false" association="_HEX7BvuSEe-00J9HxD6GXA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HEX7CvuSEe-00J9HxD6GXA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_HEX7C_uSEe-00J9HxD6GXA" name="Book Property">
+      <ownedComment xmi:id="_HEX7DPuSEe-00J9HxD6GXA">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_HEX7DfuSEe-00J9HxD6GXA">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_HEX7DvuSEe-00J9HxD6GXA">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_HEX7D_uSEe-00J9HxD6GXA">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_HEX7EPuSEe-00J9HxD6GXA">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_HEX7EfuSEe-00J9HxD6GXA">
+        <body>...</body>
+      </ownedComment>
+      <include xmi:id="_HEX7EvuSEe-00J9HxD6GXA" name="UseCaseDependency" addition="_HEX7KPuSEe-00J9HxD6GXA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_HEX7E_uSEe-00J9HxD6GXA" name="owner"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_HEX7FPuSEe-00J9HxD6GXA" memberEnd="_HEX7FfuSEe-00J9HxD6GXA _HEX7F_uSEe-00J9HxD6GXA" navigableOwnedEnd="_HEX7FfuSEe-00J9HxD6GXA">
+      <ownedEnd xmi:id="_HEX7FfuSEe-00J9HxD6GXA" visibility="public" type="_HEX7C_uSEe-00J9HxD6GXA" isUnique="false" association="_HEX7FPuSEe-00J9HxD6GXA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HEX7FvuSEe-00J9HxD6GXA"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_HEX7F_uSEe-00J9HxD6GXA" visibility="public" type="_HEX7E_uSEe-00J9HxD6GXA" isUnique="false" association="_HEX7FPuSEe-00J9HxD6GXA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HEX7GPuSEe-00J9HxD6GXA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_HEX7GfuSEe-00J9HxD6GXA" memberEnd="_HEX7GvuSEe-00J9HxD6GXA _HEX7HPuSEe-00J9HxD6GXA" navigableOwnedEnd="_HEX7GvuSEe-00J9HxD6GXA">
+      <ownedEnd xmi:id="_HEX7GvuSEe-00J9HxD6GXA" visibility="public" type="_HEX7MPuSEe-00J9HxD6GXA" isUnique="false" association="_HEX7GfuSEe-00J9HxD6GXA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HEX7G_uSEe-00J9HxD6GXA"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_HEX7HPuSEe-00J9HxD6GXA" visibility="public" type="_HEX7E_uSEe-00J9HxD6GXA" isUnique="false" association="_HEX7GfuSEe-00J9HxD6GXA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HEX7HfuSEe-00J9HxD6GXA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_HEX7HvuSEe-00J9HxD6GXA" memberEnd="_HEX7H_uSEe-00J9HxD6GXA _HEX7IfuSEe-00J9HxD6GXA" navigableOwnedEnd="_HEX7H_uSEe-00J9HxD6GXA">
+      <ownedEnd xmi:id="_HEX7H_uSEe-00J9HxD6GXA" visibility="public" type="_HEX7N_uSEe-00J9HxD6GXA" isUnique="false" association="_HEX7HvuSEe-00J9HxD6GXA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HEX7IPuSEe-00J9HxD6GXA"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_HEX7IfuSEe-00J9HxD6GXA" visibility="public" type="_HEX7E_uSEe-00J9HxD6GXA" isUnique="false" association="_HEX7HvuSEe-00J9HxD6GXA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HEX7IvuSEe-00J9HxD6GXA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_HEX7I_uSEe-00J9HxD6GXA" memberEnd="_HEX7JPuSEe-00J9HxD6GXA _HEX7JvuSEe-00J9HxD6GXA" navigableOwnedEnd="_HEX7JPuSEe-00J9HxD6GXA">
+      <ownedEnd xmi:id="_HEX7JPuSEe-00J9HxD6GXA" visibility="public" type="_HEX7PvuSEe-00J9HxD6GXA" isUnique="false" association="_HEX7I_uSEe-00J9HxD6GXA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HEX7JfuSEe-00J9HxD6GXA"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_HEX7JvuSEe-00J9HxD6GXA" visibility="public" type="_HEX7E_uSEe-00J9HxD6GXA" isUnique="false" association="_HEX7I_uSEe-00J9HxD6GXA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HEX7J_uSEe-00J9HxD6GXA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_HEX7KPuSEe-00J9HxD6GXA" name="Payment">
+      <ownedComment xmi:id="_HEX7KfuSEe-00J9HxD6GXA">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_HEX7KvuSEe-00J9HxD6GXA">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_HEX7K_uSEe-00J9HxD6GXA">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_HEX7LPuSEe-00J9HxD6GXA">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_HEX7LfuSEe-00J9HxD6GXA">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_HEX7LvuSEe-00J9HxD6GXA">
+        <body>...</body>
+      </ownedComment>
+      <include xmi:id="_HEX7L_uSEe-00J9HxD6GXA" name="UseCaseDependency" addition="_HEX7RfuSEe-00J9HxD6GXA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_HEX7MPuSEe-00J9HxD6GXA" name="Add property">
+      <ownedComment xmi:id="_HEX7MfuSEe-00J9HxD6GXA">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_HEX7MvuSEe-00J9HxD6GXA">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_HEX7M_uSEe-00J9HxD6GXA">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_HEX7NPuSEe-00J9HxD6GXA">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_HEX7NfuSEe-00J9HxD6GXA">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_HEX7NvuSEe-00J9HxD6GXA">
+        <body>...</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_HEX7N_uSEe-00J9HxD6GXA" name="Update property">
+      <ownedComment xmi:id="_HEX7OPuSEe-00J9HxD6GXA">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_HEX7OfuSEe-00J9HxD6GXA">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_HEX7OvuSEe-00J9HxD6GXA">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_HEX7O_uSEe-00J9HxD6GXA">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_HEX7PPuSEe-00J9HxD6GXA">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_HEX7PfuSEe-00J9HxD6GXA">
+        <body>...</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_HEX7PvuSEe-00J9HxD6GXA" name="Remove property">
+      <ownedComment xmi:id="_HEX7P_uSEe-00J9HxD6GXA">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_HEX7QPuSEe-00J9HxD6GXA">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_HEX7QfuSEe-00J9HxD6GXA">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_HEX7QvuSEe-00J9HxD6GXA">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_HEX7Q_uSEe-00J9HxD6GXA">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_HEX7RPuSEe-00J9HxD6GXA">
+        <body>...</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_HEX7RfuSEe-00J9HxD6GXA" name="Confirmation">
+      <ownedComment xmi:id="_HEX7RvuSEe-00J9HxD6GXA">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_HEX7R_uSEe-00J9HxD6GXA">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_HEX7SPuSEe-00J9HxD6GXA">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_HEX7SfuSEe-00J9HxD6GXA">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_HEX7SvuSEe-00J9HxD6GXA">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_HEX7S_uSEe-00J9HxD6GXA">
+        <body>...</body>
+      </ownedComment>
+      <include xmi:id="_HEX7TPuSEe-00J9HxD6GXA" name="UseCaseDependency" addition="_HEX7TfuSEe-00J9HxD6GXA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_HEX7TfuSEe-00J9HxD6GXA" name="End of reservation">
+      <ownedComment xmi:id="_HEX7TvuSEe-00J9HxD6GXA">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_HEX7T_uSEe-00J9HxD6GXA">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_HEX7UPuSEe-00J9HxD6GXA">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_HEX7UfuSEe-00J9HxD6GXA">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_HEX7UvuSEe-00J9HxD6GXA">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_HEX7U_uSEe-00J9HxD6GXA">
+        <body>...</body>
+      </ownedComment>
+      <extend xmi:id="_HEX7VPuSEe-00J9HxD6GXA" name="UseCaseDependency" extendedCase="_HEX7VfuSEe-00J9HxD6GXA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_HEX7VfuSEe-00J9HxD6GXA" name="add comment">
+      <ownedComment xmi:id="_HEX7VvuSEe-00J9HxD6GXA">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_HEX7V_uSEe-00J9HxD6GXA">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_HEX7WPuSEe-00J9HxD6GXA">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_HEX7WfuSEe-00J9HxD6GXA">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_HEX7WvuSEe-00J9HxD6GXA">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:id="_HEX7W_uSEe-00J9HxD6GXA">
+        <body>...</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_HEX7XPuSEe-00J9HxD6GXA" name="Person">
+      <ownedAttribute xmi:id="_HEX7XfuSEe-00J9HxD6GXA" visibility="public" type="_HEX7XPuSEe-00J9HxD6GXA" isUnique="false" association="_HEX7ePuSEe-00J9HxD6GXA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HEX7XvuSEe-00J9HxD6GXA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_HEX7X_uSEe-00J9HxD6GXA" name="name" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_HEX7YPuSEe-00J9HxD6GXA" name="email" visibility="public" isUnique="false" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_HEX7YfuSEe-00J9HxD6GXA" name="address" visibility="public" type="_HEX7fvuSEe-00J9HxD6GXA" isUnique="false" isReadOnly="true"/>
+      <ownedAttribute xmi:id="_HEX7YvuSEe-00J9HxD6GXA" name="phone" visibility="public" isUnique="false" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_HEX7Y_uSEe-00J9HxD6GXA" name="getEmail" visibility="public" clientDependency="_HEX7e_uSEe-00J9HxD6GXA">
+        <ownedComment xmi:id="_HEX7ZPuSEe-00J9HxD6GXA">
+          <body>// Automatically generated method. Please delete this comment before entering specific code.</body>
+        </ownedComment>
+        <ownedComment xmi:id="_HEX7ZfuSEe-00J9HxD6GXA">
+          <body>return this.email;</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_HEX7ZvuSEe-00J9HxD6GXA" isUnique="false" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HEX7Z_uSEe-00J9HxD6GXA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HEX7aPuSEe-00J9HxD6GXA" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_HEX7afuSEe-00J9HxD6GXA" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_HEX7avuSEe-00J9HxD6GXA" name="getAddress" visibility="public" clientDependency="_HEX7fPuSEe-00J9HxD6GXA">
+        <ownedComment xmi:id="_HEX7a_uSEe-00J9HxD6GXA">
+          <body>// Automatically generated method. Please delete this comment before entering specific code.</body>
+        </ownedComment>
+        <ownedComment xmi:id="_HEX7bPuSEe-00J9HxD6GXA">
+          <body>return this.address;</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_HEX7bfuSEe-00J9HxD6GXA" type="_HEX7fvuSEe-00J9HxD6GXA" isUnique="false" direction="return">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HEX7bvuSEe-00J9HxD6GXA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HEX7b_uSEe-00J9HxD6GXA" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_HEX7cPuSEe-00J9HxD6GXA" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_HEX7cfuSEe-00J9HxD6GXA" name="getPhone" visibility="public" clientDependency="_HEX7ffuSEe-00J9HxD6GXA">
+        <ownedComment xmi:id="_HEX7cvuSEe-00J9HxD6GXA">
+          <body>// Automatically generated method. Please delete this comment before entering specific code.</body>
+        </ownedComment>
+        <ownedComment xmi:id="_HEX7c_uSEe-00J9HxD6GXA">
+          <body>return this.phone;</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_HEX7dPuSEe-00J9HxD6GXA" isUnique="false" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HEX7dfuSEe-00J9HxD6GXA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HEX7dvuSEe-00J9HxD6GXA" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_HEX7d_uSEe-00J9HxD6GXA" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_HEX7ePuSEe-00J9HxD6GXA" memberEnd="_HEX7XfuSEe-00J9HxD6GXA _HEX7efuSEe-00J9HxD6GXA">
+      <ownedEnd xmi:id="_HEX7efuSEe-00J9HxD6GXA" visibility="public" type="_HEX7XPuSEe-00J9HxD6GXA" isUnique="false" association="_HEX7ePuSEe-00J9HxD6GXA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HEX7evuSEe-00J9HxD6GXA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_HEX7e_uSEe-00J9HxD6GXA" name="" supplier="_HEX7YPuSEe-00J9HxD6GXA" client="_HEX7Y_uSEe-00J9HxD6GXA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_HEX7fPuSEe-00J9HxD6GXA" name="" supplier="_HEX7YfuSEe-00J9HxD6GXA" client="_HEX7avuSEe-00J9HxD6GXA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_HEX7ffuSEe-00J9HxD6GXA" name="" supplier="_HEX7YvuSEe-00J9HxD6GXA" client="_HEX7cfuSEe-00J9HxD6GXA"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_HEX7fvuSEe-00J9HxD6GXA" name="Address">
+      <ownedAttribute xmi:id="_HEX7f_uSEe-00J9HxD6GXA" name="street" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_HEX7gPuSEe-00J9HxD6GXA" name="city" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_HEX7gfuSEe-00J9HxD6GXA" name="country" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_HEX7gvuSEe-00J9HxD6GXA" name="postcode" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_HEX7g_uSEe-00J9HxD6GXA" name="Property">
+      <ownedAttribute xmi:id="_HEX7hPuSEe-00J9HxD6GXA" name="propertyLocation" visibility="public" type="_HEX7kfuSEe-00J9HxD6GXA" isUnique="false" aggregation="composite" association="_HEX7j_uSEe-00J9HxD6GXA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HEX7hfuSEe-00J9HxD6GXA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HEX7hvuSEe-00J9HxD6GXA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_HEX7h_uSEe-00J9HxD6GXA" name="name" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_HEX7iPuSEe-00J9HxD6GXA" name="addLocation" visibility="public">
+        <ownedComment xmi:id="_HEX7ifuSEe-00J9HxD6GXA">
+          <body>returns boolean</body>
+        </ownedComment>
+        <ownedComment xmi:id="_HEX7ivuSEe-00J9HxD6GXA">
+          <body>&lt;Enter note text here></body>
+        </ownedComment>
+        <ownedParameter xmi:id="_HEX7i_uSEe-00J9HxD6GXA" isUnique="false" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HEX7jPuSEe-00J9HxD6GXA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HEX7jfuSEe-00J9HxD6GXA" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_HEX7jvuSEe-00J9HxD6GXA" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_HEX7j_uSEe-00J9HxD6GXA" memberEnd="_HEX7hPuSEe-00J9HxD6GXA _HEX7kPuSEe-00J9HxD6GXA">
+      <ownedEnd xmi:id="_HEX7kPuSEe-00J9HxD6GXA" visibility="public" type="_HEX7g_uSEe-00J9HxD6GXA" isUnique="false" association="_HEX7j_uSEe-00J9HxD6GXA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_HEX7kfuSEe-00J9HxD6GXA" name="PropertyLocation">
+      <ownedAttribute xmi:id="_HEX7kvuSEe-00J9HxD6GXA" name="room" visibility="public" type="_HEX7n_uSEe-00J9HxD6GXA" isUnique="false" aggregation="composite" association="_HEX7nfuSEe-00J9HxD6GXA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HEX7k_uSEe-00J9HxD6GXA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HEX7lPuSEe-00J9HxD6GXA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_HEX7lfuSEe-00J9HxD6GXA" name="name" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_HEX7lvuSEe-00J9HxD6GXA" name="location" visibility="public" type="_HEX7fvuSEe-00J9HxD6GXA" isUnique="false"/>
+      <ownedOperation xmi:id="_HEX7l_uSEe-00J9HxD6GXA" name="getRooms" visibility="public">
+        <ownedComment xmi:id="_HEX7mPuSEe-00J9HxD6GXA">
+          <body>returns boolean</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_HEX7mfuSEe-00J9HxD6GXA" type="_HEX7n_uSEe-00J9HxD6GXA" isUnique="false" direction="return">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HEX7mvuSEe-00J9HxD6GXA" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HEX7m_uSEe-00J9HxD6GXA"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_HEX7nPuSEe-00J9HxD6GXA" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_HEX7nfuSEe-00J9HxD6GXA" memberEnd="_HEX7kvuSEe-00J9HxD6GXA _HEX7nvuSEe-00J9HxD6GXA">
+      <ownedEnd xmi:id="_HEX7nvuSEe-00J9HxD6GXA" visibility="public" type="_HEX7kfuSEe-00J9HxD6GXA" isUnique="false" association="_HEX7nfuSEe-00J9HxD6GXA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_HEX7n_uSEe-00J9HxD6GXA" name="Room">
+      <ownedAttribute xmi:id="_HEX7oPuSEe-00J9HxD6GXA" name="extras" visibility="public" type="_HEX77PuSEe-00J9HxD6GXA" isUnique="false" aggregation="composite" association="_HEX7rfuSEe-00J9HxD6GXA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HEX7ofuSEe-00J9HxD6GXA" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_HEX7ovuSEe-00J9HxD6GXA" name="roomName" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_HEX7o_uSEe-00J9HxD6GXA" name="status" visibility="public" type="_HEX7r_uSEe-00J9HxD6GXA" isUnique="false"/>
+      <ownedAttribute xmi:id="_HEX7pPuSEe-00J9HxD6GXA" name="price0" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_HEX7pfuSEe-00J9HxD6GXA" name="price1" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_HEX7pvuSEe-00J9HxD6GXA" name="price2" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_HEX7p_uSEe-00J9HxD6GXA" name="isRoomAvailable" visibility="public">
+        <ownedComment xmi:id="_HEX7qPuSEe-00J9HxD6GXA">
+          <body>returns boolean
+</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_HEX7qfuSEe-00J9HxD6GXA" isUnique="false" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HEX7qvuSEe-00J9HxD6GXA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HEX7q_uSEe-00J9HxD6GXA" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_HEX7rPuSEe-00J9HxD6GXA" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_HEX7rfuSEe-00J9HxD6GXA" memberEnd="_HEX7oPuSEe-00J9HxD6GXA _HEX7rvuSEe-00J9HxD6GXA">
+      <ownedEnd xmi:id="_HEX7rvuSEe-00J9HxD6GXA" visibility="public" type="_HEX7n_uSEe-00J9HxD6GXA" isUnique="false" association="_HEX7rfuSEe-00J9HxD6GXA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_HEX7r_uSEe-00J9HxD6GXA" name="RoomStatus">
+      <ownedLiteral xmi:id="_HEX7sPuSEe-00J9HxD6GXA" name="Available"/>
+      <ownedLiteral xmi:id="_HEX7sfuSEe-00J9HxD6GXA" name="Reserved"/>
+      <ownedLiteral xmi:id="_HEX7svuSEe-00J9HxD6GXA" name="Occupied"/>
+      <ownedLiteral xmi:id="_HEX7s_uSEe-00J9HxD6GXA" name="NotAvailable"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_HEX7tPuSEe-00J9HxD6GXA" name="Guest">
+      <generalization xmi:id="_HEX7tfuSEe-00J9HxD6GXA" general="_HEX7XPuSEe-00J9HxD6GXA"/>
+      <ownedAttribute xmi:id="_HEX7tvuSEe-00J9HxD6GXA" name="roomBooking" visibility="public" type="_HEX74fuSEe-00J9HxD6GXA" isUnique="false" association="_HEX7wvuSEe-00J9HxD6GXA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HEX7t_uSEe-00J9HxD6GXA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HEX7uPuSEe-00J9HxD6GXA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_HEX7ufuSEe-00J9HxD6GXA" name="commentary" visibility="public" type="_HEX7_fuSEe-00J9HxD6GXA" isUnique="false" association="_HEX7xPuSEe-00J9HxD6GXA">
+        <ownedComment xmi:id="_HEX7uvuSEe-00J9HxD6GXA">
+          <body>&lt;Enter note text here></body>
+        </ownedComment>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HEX7u_uSEe-00J9HxD6GXA"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_HEX7vPuSEe-00J9HxD6GXA" name="createBooking" visibility="public">
+        <ownedComment xmi:id="_HEX7vfuSEe-00J9HxD6GXA">
+          <body>returns boolean</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_HEX7vvuSEe-00J9HxD6GXA" isUnique="false" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HEX7v_uSEe-00J9HxD6GXA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HEX7wPuSEe-00J9HxD6GXA" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_HEX7wfuSEe-00J9HxD6GXA" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_HEX7wvuSEe-00J9HxD6GXA" name="makes" memberEnd="_HEX7tvuSEe-00J9HxD6GXA _HEX7w_uSEe-00J9HxD6GXA">
+      <ownedEnd xmi:id="_HEX7w_uSEe-00J9HxD6GXA" visibility="public" type="_HEX7tPuSEe-00J9HxD6GXA" isUnique="false" association="_HEX7wvuSEe-00J9HxD6GXA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_HEX7xPuSEe-00J9HxD6GXA" memberEnd="_HEX7ufuSEe-00J9HxD6GXA _HEX7xfuSEe-00J9HxD6GXA">
+      <ownedEnd xmi:id="_HEX7xfuSEe-00J9HxD6GXA" visibility="public" type="_HEX7tPuSEe-00J9HxD6GXA" isUnique="false" association="_HEX7xPuSEe-00J9HxD6GXA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HEX7xvuSEe-00J9HxD6GXA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_HEX7x_uSEe-00J9HxD6GXA" name="Owner">
+      <generalization xmi:id="_HEX7yPuSEe-00J9HxD6GXA" general="_HEX7XPuSEe-00J9HxD6GXA"/>
+      <ownedAttribute xmi:id="_HEX7yfuSEe-00J9HxD6GXA" name="roomBooking" visibility="public" type="_HEX74fuSEe-00J9HxD6GXA" isUnique="false" association="_HEX73_uSEe-00J9HxD6GXA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HEX7yvuSEe-00J9HxD6GXA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HEX7y_uSEe-00J9HxD6GXA"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_HEX7zPuSEe-00J9HxD6GXA" name="addProperty" visibility="public">
+        <ownedComment xmi:id="_HEX7zfuSEe-00J9HxD6GXA">
+          <body>returns boolean</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_HEX7zvuSEe-00J9HxD6GXA" isUnique="false" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HEX7z_uSEe-00J9HxD6GXA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HEX70PuSEe-00J9HxD6GXA" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_HEX70fuSEe-00J9HxD6GXA" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_HEX70vuSEe-00J9HxD6GXA" name="updateProperty" visibility="public">
+        <ownedComment xmi:id="_HEX70_uSEe-00J9HxD6GXA">
+          <body>&lt;Enter note text here></body>
+        </ownedComment>
+        <ownedComment xmi:id="_HEX71PuSEe-00J9HxD6GXA">
+          <body>returns boolean</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_HEX71fuSEe-00J9HxD6GXA" isUnique="false" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HEX71vuSEe-00J9HxD6GXA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HEX71_uSEe-00J9HxD6GXA" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_HEX72PuSEe-00J9HxD6GXA" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_HEX72fuSEe-00J9HxD6GXA" name="removeProperty" visibility="public">
+        <ownedComment xmi:id="_HEX72vuSEe-00J9HxD6GXA">
+          <body>returns boolean</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_HEX72_uSEe-00J9HxD6GXA" isUnique="false" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HEX73PuSEe-00J9HxD6GXA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HEX73fuSEe-00J9HxD6GXA" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_HEX73vuSEe-00J9HxD6GXA" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_HEX73_uSEe-00J9HxD6GXA" name="makes" memberEnd="_HEX7yfuSEe-00J9HxD6GXA _HEX74PuSEe-00J9HxD6GXA">
+      <ownedEnd xmi:id="_HEX74PuSEe-00J9HxD6GXA" visibility="public" type="_HEX7x_uSEe-00J9HxD6GXA" isUnique="false" association="_HEX73_uSEe-00J9HxD6GXA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_HEX74fuSEe-00J9HxD6GXA" name="RoomBooking">
+      <ownedAttribute xmi:id="_HEX74vuSEe-00J9HxD6GXA" name="room" visibility="public" type="_HEX7n_uSEe-00J9HxD6GXA" isUnique="false" association="_HEX76PuSEe-00J9HxD6GXA"/>
+      <ownedAttribute xmi:id="_HEX74_uSEe-00J9HxD6GXA" name="payment" visibility="public" type="_HEX78fuSEe-00J9HxD6GXA" isUnique="false" association="_HEX76vuSEe-00J9HxD6GXA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HEX75PuSEe-00J9HxD6GXA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_HEX75fuSEe-00J9HxD6GXA" name="reservationId" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_HEX75vuSEe-00J9HxD6GXA" name="startDate" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_HEX75_uSEe-00J9HxD6GXA" name="durationInDays" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_HEX76PuSEe-00J9HxD6GXA" memberEnd="_HEX74vuSEe-00J9HxD6GXA _HEX76fuSEe-00J9HxD6GXA">
+      <ownedEnd xmi:id="_HEX76fuSEe-00J9HxD6GXA" visibility="public" type="_HEX74fuSEe-00J9HxD6GXA" isUnique="false" association="_HEX76PuSEe-00J9HxD6GXA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_HEX76vuSEe-00J9HxD6GXA" memberEnd="_HEX74_uSEe-00J9HxD6GXA _HEX76_uSEe-00J9HxD6GXA">
+      <ownedEnd xmi:id="_HEX76_uSEe-00J9HxD6GXA" visibility="public" type="_HEX74fuSEe-00J9HxD6GXA" isUnique="false" association="_HEX76vuSEe-00J9HxD6GXA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_HEX77PuSEe-00J9HxD6GXA" name="Extras">
+      <ownedAttribute xmi:id="_HEX77fuSEe-00J9HxD6GXA" name="name" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_HEX77vuSEe-00J9HxD6GXA" name="price" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_HEX77_uSEe-00J9HxD6GXA" name="Component"/>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_HEX78PuSEe-00J9HxD6GXA" name="ResourceFile"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_HEX78fuSEe-00J9HxD6GXA" name="Payment">
+      <ownedAttribute xmi:id="_HEX78vuSEe-00J9HxD6GXA" name="Total" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_HEX78_uSEe-00J9HxD6GXA" name="paymentType" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_HEX79PuSEe-00J9HxD6GXA" name="pay" visibility="public">
+        <ownedParameter xmi:id="_HEX79fuSEe-00J9HxD6GXA" name="sum" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HEX79vuSEe-00J9HxD6GXA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HEX79_uSEe-00J9HxD6GXA" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_HEX7-PuSEe-00J9HxD6GXA" value=""/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_HEX7-fuSEe-00J9HxD6GXA" isUnique="false" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HEX7-vuSEe-00J9HxD6GXA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HEX7-_uSEe-00J9HxD6GXA" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_HEX7_PuSEe-00J9HxD6GXA" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_HEX7_fuSEe-00J9HxD6GXA" name="Commentary">
+      <ownedAttribute xmi:id="_HEX7_vuSEe-00J9HxD6GXA" name="Comment" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_HEX7__uSEe-00J9HxD6GXA" name="note" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Activity" xmi:id="_HEX8APuSEe-00J9HxD6GXA" name="Activity">
+      <nestedClassifier xmi:type="uml:Collaboration" xmi:id="_HEX8AfuSEe-00J9HxD6GXA" name="locals"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interaction" xmi:id="_HEX8AvuSEe-00J9HxD6GXA" name="Interaction">
+      <nestedClassifier xmi:type="uml:Collaboration" xmi:id="_HEX8A_uSEe-00J9HxD6GXA" name="locals"/>
+      <lifeline xmi:id="_HEX8BPuSEe-00J9HxD6GXA" name="Guest" coveredBy="_HEX8CvuSEe-00J9HxD6GXA _HEX8DPuSEe-00J9HxD6GXA _HEX8EPuSEe-00J9HxD6GXA _HEX8EvuSEe-00J9HxD6GXA _HEX8FfuSEe-00J9HxD6GXA _HEX8FvuSEe-00J9HxD6GXA _HEX8GPuSEe-00J9HxD6GXA _HEX8HPuSEe-00J9HxD6GXA _HEX8HvuSEe-00J9HxD6GXA _HEX8IPuSEe-00J9HxD6GXA _HEX8JPuSEe-00J9HxD6GXA _HEX8JvuSEe-00J9HxD6GXA _HEX8KvuSEe-00J9HxD6GXA _HEX8K_uSEe-00J9HxD6GXA _HEX8LfuSEe-00J9HxD6GXA _HEX8M_uSEe-00J9HxD6GXA _HEX8NPuSEe-00J9HxD6GXA _HEX8NfuSEe-00J9HxD6GXA _HEX8OfuSEe-00J9HxD6GXA _HEX8OvuSEe-00J9HxD6GXA _HEX8O_uSEe-00J9HxD6GXA _HEX8P_uSEe-00J9HxD6GXA"/>
+      <lifeline xmi:id="_HEX8BfuSEe-00J9HxD6GXA" name="System" coveredBy="_HEX8CfuSEe-00J9HxD6GXA _HEX8DvuSEe-00J9HxD6GXA _HEX8EfuSEe-00J9HxD6GXA _HEX8E_uSEe-00J9HxD6GXA _HEX8FPuSEe-00J9HxD6GXA _HEX8F_uSEe-00J9HxD6GXA _HEX8GfuSEe-00J9HxD6GXA _HEX8GvuSEe-00J9HxD6GXA _HEX8G_uSEe-00J9HxD6GXA _HEX8HfuSEe-00J9HxD6GXA _HEX8H_uSEe-00J9HxD6GXA"/>
+      <lifeline xmi:id="_HEX8BvuSEe-00J9HxD6GXA" name="Properties" coveredBy="_HEX8D_uSEe-00J9HxD6GXA _HEX8IfuSEe-00J9HxD6GXA _HEX8IvuSEe-00J9HxD6GXA _HEX8I_uSEe-00J9HxD6GXA _HEX8JfuSEe-00J9HxD6GXA _HEX8J_uSEe-00J9HxD6GXA _HEX8KPuSEe-00J9HxD6GXA _HEX8KfuSEe-00J9HxD6GXA _HEX8LvuSEe-00J9HxD6GXA"/>
+      <lifeline xmi:id="_HEX8B_uSEe-00J9HxD6GXA" name="Admin" coveredBy="_HEX8L_uSEe-00J9HxD6GXA _HEX8MPuSEe-00J9HxD6GXA _HEX8MvuSEe-00J9HxD6GXA _HEX8PPuSEe-00J9HxD6GXA _HEX8PfuSEe-00J9HxD6GXA _HEX8PvuSEe-00J9HxD6GXA"/>
+      <lifeline xmi:id="_HEX8CPuSEe-00J9HxD6GXA" name="Transactions" coveredBy="_HEX8NvuSEe-00J9HxD6GXA _HEX8N_uSEe-00J9HxD6GXA _HEX8OPuSEe-00J9HxD6GXA"/>
+      <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_HEX8CfuSEe-00J9HxD6GXA" covered="_HEX8BfuSEe-00J9HxD6GXA" start="_HEX8EfuSEe-00J9HxD6GXA" finish="_HEX8F_uSEe-00J9HxD6GXA"/>
+      <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_HEX8CvuSEe-00J9HxD6GXA" covered="_HEX8BPuSEe-00J9HxD6GXA" start="_HEX8EPuSEe-00J9HxD6GXA" finish="_HEX8FvuSEe-00J9HxD6GXA">
+        <ownedComment xmi:id="_HEX8C_uSEe-00J9HxD6GXA">
+          <body>if the user is new
+</body>
+        </ownedComment>
+      </fragment>
+      <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_HEX8DPuSEe-00J9HxD6GXA" covered="_HEX8BPuSEe-00J9HxD6GXA" start="_HEX8GPuSEe-00J9HxD6GXA" finish="_HEX8HvuSEe-00J9HxD6GXA">
+        <ownedComment xmi:id="_HEX8DfuSEe-00J9HxD6GXA">
+          <body>else</body>
+        </ownedComment>
+      </fragment>
+      <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_HEX8DvuSEe-00J9HxD6GXA" covered="_HEX8BfuSEe-00J9HxD6GXA" start="_HEX8GfuSEe-00J9HxD6GXA" finish="_HEX8H_uSEe-00J9HxD6GXA"/>
+      <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_HEX8D_uSEe-00J9HxD6GXA" covered="_HEX8BvuSEe-00J9HxD6GXA" start="_HEX8JfuSEe-00J9HxD6GXA" finish="_HEX8KPuSEe-00J9HxD6GXA"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_HEX8EPuSEe-00J9HxD6GXA" covered="_HEX8BPuSEe-00J9HxD6GXA"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_HEX8EfuSEe-00J9HxD6GXA" covered="_HEX8BfuSEe-00J9HxD6GXA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HEX8EvuSEe-00J9HxD6GXA" covered="_HEX8BPuSEe-00J9HxD6GXA" message="_HEX8QPuSEe-00J9HxD6GXA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HEX8E_uSEe-00J9HxD6GXA" covered="_HEX8BfuSEe-00J9HxD6GXA" message="_HEX8QPuSEe-00J9HxD6GXA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HEX8FPuSEe-00J9HxD6GXA" covered="_HEX8BfuSEe-00J9HxD6GXA" message="_HEX8QfuSEe-00J9HxD6GXA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HEX8FfuSEe-00J9HxD6GXA" covered="_HEX8BPuSEe-00J9HxD6GXA" message="_HEX8QfuSEe-00J9HxD6GXA"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_HEX8FvuSEe-00J9HxD6GXA" covered="_HEX8BPuSEe-00J9HxD6GXA"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_HEX8F_uSEe-00J9HxD6GXA" covered="_HEX8BfuSEe-00J9HxD6GXA"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_HEX8GPuSEe-00J9HxD6GXA" covered="_HEX8BPuSEe-00J9HxD6GXA"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_HEX8GfuSEe-00J9HxD6GXA" covered="_HEX8BfuSEe-00J9HxD6GXA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HEX8GvuSEe-00J9HxD6GXA" covered="_HEX8BfuSEe-00J9HxD6GXA" message="_HEX8QvuSEe-00J9HxD6GXA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HEX8G_uSEe-00J9HxD6GXA" covered="_HEX8BfuSEe-00J9HxD6GXA" message="_HEX8QvuSEe-00J9HxD6GXA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HEX8HPuSEe-00J9HxD6GXA" covered="_HEX8BPuSEe-00J9HxD6GXA" message="_HEX8Q_uSEe-00J9HxD6GXA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HEX8HfuSEe-00J9HxD6GXA" covered="_HEX8BfuSEe-00J9HxD6GXA" message="_HEX8Q_uSEe-00J9HxD6GXA"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_HEX8HvuSEe-00J9HxD6GXA" covered="_HEX8BPuSEe-00J9HxD6GXA"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_HEX8H_uSEe-00J9HxD6GXA" covered="_HEX8BfuSEe-00J9HxD6GXA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HEX8IPuSEe-00J9HxD6GXA" covered="_HEX8BPuSEe-00J9HxD6GXA" message="_HEX8RPuSEe-00J9HxD6GXA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HEX8IfuSEe-00J9HxD6GXA" covered="_HEX8BvuSEe-00J9HxD6GXA" message="_HEX8RPuSEe-00J9HxD6GXA"/>
+      <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_HEX8IvuSEe-00J9HxD6GXA" covered="_HEX8BvuSEe-00J9HxD6GXA" start="_HEX8IfuSEe-00J9HxD6GXA" finish="_HEX8I_uSEe-00J9HxD6GXA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HEX8I_uSEe-00J9HxD6GXA" covered="_HEX8BvuSEe-00J9HxD6GXA" message="_HEX8RfuSEe-00J9HxD6GXA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HEX8JPuSEe-00J9HxD6GXA" covered="_HEX8BPuSEe-00J9HxD6GXA" message="_HEX8RfuSEe-00J9HxD6GXA"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_HEX8JfuSEe-00J9HxD6GXA" covered="_HEX8BvuSEe-00J9HxD6GXA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HEX8JvuSEe-00J9HxD6GXA" covered="_HEX8BPuSEe-00J9HxD6GXA" message="_HEX8RvuSEe-00J9HxD6GXA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HEX8J_uSEe-00J9HxD6GXA" covered="_HEX8BvuSEe-00J9HxD6GXA" message="_HEX8RvuSEe-00J9HxD6GXA"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_HEX8KPuSEe-00J9HxD6GXA" covered="_HEX8BvuSEe-00J9HxD6GXA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HEX8KfuSEe-00J9HxD6GXA" covered="_HEX8BvuSEe-00J9HxD6GXA" message="_HEX8R_uSEe-00J9HxD6GXA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HEX8KvuSEe-00J9HxD6GXA" covered="_HEX8BPuSEe-00J9HxD6GXA" message="_HEX8R_uSEe-00J9HxD6GXA"/>
+      <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_HEX8K_uSEe-00J9HxD6GXA" covered="_HEX8BPuSEe-00J9HxD6GXA" start="_HEX8KvuSEe-00J9HxD6GXA" finish="_HEX8LfuSEe-00J9HxD6GXA">
+        <ownedComment xmi:id="_HEX8LPuSEe-00J9HxD6GXA">
+          <body>if not available
+</body>
+        </ownedComment>
+      </fragment>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_HEX8LfuSEe-00J9HxD6GXA" covered="_HEX8BPuSEe-00J9HxD6GXA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HEX8LvuSEe-00J9HxD6GXA" covered="_HEX8BvuSEe-00J9HxD6GXA" message="_HEX8SPuSEe-00J9HxD6GXA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HEX8L_uSEe-00J9HxD6GXA" covered="_HEX8B_uSEe-00J9HxD6GXA" message="_HEX8SPuSEe-00J9HxD6GXA"/>
+      <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_HEX8MPuSEe-00J9HxD6GXA" covered="_HEX8B_uSEe-00J9HxD6GXA" start="_HEX8L_uSEe-00J9HxD6GXA" finish="_HEX8MvuSEe-00J9HxD6GXA">
+        <ownedComment xmi:id="_HEX8MfuSEe-00J9HxD6GXA">
+          <body>else</body>
+        </ownedComment>
+      </fragment>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HEX8MvuSEe-00J9HxD6GXA" covered="_HEX8B_uSEe-00J9HxD6GXA" message="_HEX8SfuSEe-00J9HxD6GXA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HEX8M_uSEe-00J9HxD6GXA" covered="_HEX8BPuSEe-00J9HxD6GXA" message="_HEX8SfuSEe-00J9HxD6GXA"/>
+      <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_HEX8NPuSEe-00J9HxD6GXA" covered="_HEX8BPuSEe-00J9HxD6GXA" start="_HEX8M_uSEe-00J9HxD6GXA" finish="_HEX8OvuSEe-00J9HxD6GXA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HEX8NfuSEe-00J9HxD6GXA" covered="_HEX8BPuSEe-00J9HxD6GXA" message="_HEX8SvuSEe-00J9HxD6GXA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HEX8NvuSEe-00J9HxD6GXA" covered="_HEX8CPuSEe-00J9HxD6GXA" message="_HEX8SvuSEe-00J9HxD6GXA"/>
+      <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_HEX8N_uSEe-00J9HxD6GXA" covered="_HEX8CPuSEe-00J9HxD6GXA" start="_HEX8NvuSEe-00J9HxD6GXA" finish="_HEX8OPuSEe-00J9HxD6GXA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HEX8OPuSEe-00J9HxD6GXA" covered="_HEX8CPuSEe-00J9HxD6GXA" message="_HEX8S_uSEe-00J9HxD6GXA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HEX8OfuSEe-00J9HxD6GXA" covered="_HEX8BPuSEe-00J9HxD6GXA" message="_HEX8S_uSEe-00J9HxD6GXA"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_HEX8OvuSEe-00J9HxD6GXA" covered="_HEX8BPuSEe-00J9HxD6GXA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HEX8O_uSEe-00J9HxD6GXA" covered="_HEX8BPuSEe-00J9HxD6GXA" message="_HEX8TPuSEe-00J9HxD6GXA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HEX8PPuSEe-00J9HxD6GXA" covered="_HEX8B_uSEe-00J9HxD6GXA" message="_HEX8TPuSEe-00J9HxD6GXA"/>
+      <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_HEX8PfuSEe-00J9HxD6GXA" covered="_HEX8B_uSEe-00J9HxD6GXA" start="_HEX8PPuSEe-00J9HxD6GXA" finish="_HEX8PvuSEe-00J9HxD6GXA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HEX8PvuSEe-00J9HxD6GXA" covered="_HEX8B_uSEe-00J9HxD6GXA" message="_HEX8TfuSEe-00J9HxD6GXA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HEX8P_uSEe-00J9HxD6GXA" covered="_HEX8BPuSEe-00J9HxD6GXA" message="_HEX8TfuSEe-00J9HxD6GXA"/>
+      <message xmi:id="_HEX8QPuSEe-00J9HxD6GXA" name="Register" receiveEvent="_HEX8E_uSEe-00J9HxD6GXA" sendEvent="_HEX8EvuSEe-00J9HxD6GXA"/>
+      <message xmi:id="_HEX8QfuSEe-00J9HxD6GXA" name="verify credentials" messageSort="reply" receiveEvent="_HEX8FfuSEe-00J9HxD6GXA" sendEvent="_HEX8FPuSEe-00J9HxD6GXA"/>
+      <message xmi:id="_HEX8QvuSEe-00J9HxD6GXA" name="Login sussessful" messageSort="reply" receiveEvent="_HEX8G_uSEe-00J9HxD6GXA" sendEvent="_HEX8GvuSEe-00J9HxD6GXA"/>
+      <message xmi:id="_HEX8Q_uSEe-00J9HxD6GXA" name="Login" receiveEvent="_HEX8HfuSEe-00J9HxD6GXA" sendEvent="_HEX8HPuSEe-00J9HxD6GXA"/>
+      <message xmi:id="_HEX8RPuSEe-00J9HxD6GXA" name="search property" receiveEvent="_HEX8IfuSEe-00J9HxD6GXA" sendEvent="_HEX8IPuSEe-00J9HxD6GXA"/>
+      <message xmi:id="_HEX8RfuSEe-00J9HxD6GXA" name="returns list of properties" messageSort="reply" receiveEvent="_HEX8JPuSEe-00J9HxD6GXA" sendEvent="_HEX8I_uSEe-00J9HxD6GXA"/>
+      <message xmi:id="_HEX8RvuSEe-00J9HxD6GXA" name="check availability" receiveEvent="_HEX8J_uSEe-00J9HxD6GXA" sendEvent="_HEX8JvuSEe-00J9HxD6GXA"/>
+      <message xmi:id="_HEX8R_uSEe-00J9HxD6GXA" name="retun to the list of properties" receiveEvent="_HEX8KvuSEe-00J9HxD6GXA" sendEvent="_HEX8KfuSEe-00J9HxD6GXA"/>
+      <message xmi:id="_HEX8SPuSEe-00J9HxD6GXA" receiveEvent="_HEX8L_uSEe-00J9HxD6GXA" sendEvent="_HEX8LvuSEe-00J9HxD6GXA"/>
+      <message xmi:id="_HEX8SfuSEe-00J9HxD6GXA" name="confirm the booking" messageSort="reply" receiveEvent="_HEX8M_uSEe-00J9HxD6GXA" sendEvent="_HEX8MvuSEe-00J9HxD6GXA"/>
+      <message xmi:id="_HEX8SvuSEe-00J9HxD6GXA" name="transfer the amount" receiveEvent="_HEX8NvuSEe-00J9HxD6GXA" sendEvent="_HEX8NfuSEe-00J9HxD6GXA"/>
+      <message xmi:id="_HEX8S_uSEe-00J9HxD6GXA" name="return transaction details" messageSort="reply" receiveEvent="_HEX8OfuSEe-00J9HxD6GXA" sendEvent="_HEX8OPuSEe-00J9HxD6GXA"/>
+      <message xmi:id="_HEX8TPuSEe-00J9HxD6GXA" name="send transaction details" receiveEvent="_HEX8PPuSEe-00J9HxD6GXA" sendEvent="_HEX8O_uSEe-00J9HxD6GXA"/>
+      <message xmi:id="_HEX8TfuSEe-00J9HxD6GXA" name="return with receipt and confirmation of the booking" messageSort="reply" receiveEvent="_HEX8P_uSEe-00J9HxD6GXA" sendEvent="_HEX8PvuSEe-00J9HxD6GXA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interaction" xmi:id="_HEX8TvuSEe-00J9HxD6GXA" name="Interaction1">
+      <nestedClassifier xmi:type="uml:Collaboration" xmi:id="_HEX8T_uSEe-00J9HxD6GXA" name="locals"/>
+    </packagedElement>
+    <profileApplication xmi:id="_HFeHMPuSEe-00J9HxD6GXA">
+      <eAnnotations xmi:id="_HFeHMfuSEe-00J9HxD6GXA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="JavaExtensions.profile.xmi#_HFU9R_uSEe-00J9HxD6GXA"/>
+      </eAnnotations>
+      <appliedProfile href="JavaExtensions.profile.xmi#_HFU9QPuSEe-00J9HxD6GXA"/>
+    </profileApplication>
+  </uml:Model>
+  <JavaExtensions:JavaPackage xmi:id="_HFeHMvuSEe-00J9HxD6GXA" base_Package="_HEX7APuSEe-00J9HxD6GXA"/>
+  <JavaExtensions:JavaClass xmi:id="_HFiYoPuSEe-00J9HxD6GXA" base_Class="_HEX7XPuSEe-00J9HxD6GXA"/>
+  <JavaExtensions:JavaAssociationEndProperty xmi:id="_HFiYofuSEe-00J9HxD6GXA" base_Property="_HEX7XfuSEe-00J9HxD6GXA"/>
+  <JavaExtensions:JavaAttributeProperty xmi:id="_HFiYovuSEe-00J9HxD6GXA" base_Property="_HEX7X_uSEe-00J9HxD6GXA"/>
+  <JavaExtensions:JavaGetter xmi:id="_HFiYo_uSEe-00J9HxD6GXA" base_Operation="_HEX7Y_uSEe-00J9HxD6GXA"/>
+  <JavaExtensions:JavaGetter xmi:id="_HFiYpPuSEe-00J9HxD6GXA" base_Dependency="_HEX7e_uSEe-00J9HxD6GXA"/>
+  <JavaExtensions:JavaGetter xmi:id="_HFiYpfuSEe-00J9HxD6GXA" base_Operation="_HEX7avuSEe-00J9HxD6GXA"/>
+  <JavaExtensions:JavaGetter xmi:id="_HFiYpvuSEe-00J9HxD6GXA" base_Dependency="_HEX7fPuSEe-00J9HxD6GXA"/>
+  <JavaExtensions:JavaGetter xmi:id="_HFiYp_uSEe-00J9HxD6GXA" base_Operation="_HEX7cfuSEe-00J9HxD6GXA"/>
+  <JavaExtensions:JavaGetter xmi:id="_HFiYqPuSEe-00J9HxD6GXA" base_Dependency="_HEX7ffuSEe-00J9HxD6GXA"/>
+  <JavaExtensions:JavaDataType xmi:id="_HFiYqfuSEe-00J9HxD6GXA" base_DataType="_HEX7fvuSEe-00J9HxD6GXA" base_PrimitiveType="_HEX7fvuSEe-00J9HxD6GXA"/>
+  <JavaExtensions:JavaClass xmi:id="_HFiYqvuSEe-00J9HxD6GXA" base_Class="_HEX7g_uSEe-00J9HxD6GXA"/>
+  <JavaExtensions:JavaAssociationEndProperty xmi:id="_HFiYq_uSEe-00J9HxD6GXA" base_Property="_HEX7hPuSEe-00J9HxD6GXA"/>
+  <JavaExtensions:JavaAttributeProperty xmi:id="_HFiYrPuSEe-00J9HxD6GXA" base_Property="_HEX7h_uSEe-00J9HxD6GXA"/>
+  <JavaExtensions:JavaClass xmi:id="_HFiYrfuSEe-00J9HxD6GXA" base_Class="_HEX7kfuSEe-00J9HxD6GXA"/>
+  <JavaExtensions:JavaAssociationEndProperty xmi:id="_HFiYrvuSEe-00J9HxD6GXA" base_Property="_HEX7kvuSEe-00J9HxD6GXA"/>
+  <JavaExtensions:JavaAttributeProperty xmi:id="_HFiYr_uSEe-00J9HxD6GXA" base_Property="_HEX7lfuSEe-00J9HxD6GXA"/>
+  <JavaExtensions:JavaAttributeProperty xmi:id="_HFiYsPuSEe-00J9HxD6GXA" base_Property="_HEX7lvuSEe-00J9HxD6GXA"/>
+  <JavaExtensions:JavaClass xmi:id="_HFiYsfuSEe-00J9HxD6GXA" base_Class="_HEX7n_uSEe-00J9HxD6GXA"/>
+  <JavaExtensions:JavaAssociationEndProperty xmi:id="_HFiYsvuSEe-00J9HxD6GXA" base_Property="_HEX7oPuSEe-00J9HxD6GXA"/>
+  <JavaExtensions:JavaAttributeProperty xmi:id="_HFiYs_uSEe-00J9HxD6GXA" base_Property="_HEX7ovuSEe-00J9HxD6GXA"/>
+  <JavaExtensions:JavaAttributeProperty xmi:id="_HFiYtPuSEe-00J9HxD6GXA" base_Property="_HEX7o_uSEe-00J9HxD6GXA"/>
+  <JavaExtensions:JavaAttributeProperty xmi:id="_HFiYtfuSEe-00J9HxD6GXA" base_Property="_HEX7pPuSEe-00J9HxD6GXA"/>
+  <JavaExtensions:JavaAttributeProperty xmi:id="_HFiYtvuSEe-00J9HxD6GXA" base_Property="_HEX7pfuSEe-00J9HxD6GXA"/>
+  <JavaExtensions:JavaAttributeProperty xmi:id="_HFiYt_uSEe-00J9HxD6GXA" base_Property="_HEX7pvuSEe-00J9HxD6GXA"/>
+  <JavaExtensions:JavaEnumeration xmi:id="_HFiYuPuSEe-00J9HxD6GXA" base_Enumeration="_HEX7r_uSEe-00J9HxD6GXA"/>
+  <JavaExtensions:JavaClass xmi:id="_HFiYufuSEe-00J9HxD6GXA" base_Class="_HEX7tPuSEe-00J9HxD6GXA"/>
+  <JavaExtensions:JavaAssociationEndProperty xmi:id="_HFiYuvuSEe-00J9HxD6GXA" base_Property="_HEX7tvuSEe-00J9HxD6GXA"/>
+  <JavaExtensions:JavaClass xmi:id="_HFiYu_uSEe-00J9HxD6GXA" base_Class="_HEX7x_uSEe-00J9HxD6GXA"/>
+  <JavaExtensions:JavaAssociationEndProperty xmi:id="_HFiYvPuSEe-00J9HxD6GXA" base_Property="_HEX7yfuSEe-00J9HxD6GXA"/>
+  <JavaExtensions:JavaClass xmi:id="_HFiYvfuSEe-00J9HxD6GXA" base_Class="_HEX74fuSEe-00J9HxD6GXA"/>
+  <JavaExtensions:JavaAttributeProperty xmi:id="_HFiYvvuSEe-00J9HxD6GXA" base_Property="_HEX75fuSEe-00J9HxD6GXA"/>
+  <JavaExtensions:JavaAttributeProperty xmi:id="_HFiYv_uSEe-00J9HxD6GXA" base_Property="_HEX75vuSEe-00J9HxD6GXA"/>
+  <JavaExtensions:JavaAttributeProperty xmi:id="_HFiYwPuSEe-00J9HxD6GXA" base_Property="_HEX75_uSEe-00J9HxD6GXA"/>
+  <JavaExtensions:JavaClass xmi:id="_HFiYwfuSEe-00J9HxD6GXA" base_Class="_HEX77PuSEe-00J9HxD6GXA"/>
+  <JavaExtensions:JavaAttributeProperty xmi:id="_HFiYwvuSEe-00J9HxD6GXA" base_Property="_HEX77fuSEe-00J9HxD6GXA"/>
+  <JavaExtensions:JavaAttributeProperty xmi:id="_HFiYw_uSEe-00J9HxD6GXA" base_Property="_HEX77vuSEe-00J9HxD6GXA"/>
+  <JavaExtensions:JavaComponent xmi:id="_HFiYxPuSEe-00J9HxD6GXA" base_Component="_HEX77_uSEe-00J9HxD6GXA"/>
+  <JavaExtensions:JavaResource xmi:id="_HFiYxfuSEe-00J9HxD6GXA" base_Artifact="_HEX78PuSEe-00J9HxD6GXA"/>
+  <JavaExtensions:JavaClass xmi:id="_HFiYxvuSEe-00J9HxD6GXA" base_Class="_HEX78fuSEe-00J9HxD6GXA"/>
+  <JavaExtensions:JavaAttributeProperty xmi:id="_HFiYx_uSEe-00J9HxD6GXA" base_Property="_HEX78vuSEe-00J9HxD6GXA"/>
+  <JavaExtensions:JavaAttributeProperty xmi:id="_HFiYyPuSEe-00J9HxD6GXA" base_Property="_HEX78_uSEe-00J9HxD6GXA"/>
+  <JavaExtensions:JavaClass xmi:id="_HFiYyfuSEe-00J9HxD6GXA" base_Class="_HEX7_fuSEe-00J9HxD6GXA"/>
+  <JavaExtensions:JavaAttributeProperty xmi:id="_HFiYyvuSEe-00J9HxD6GXA" base_Property="_HEX7_vuSEe-00J9HxD6GXA"/>
+  <JavaExtensions:JavaAttributeProperty xmi:id="_HFiYy_uSEe-00J9HxD6GXA" base_Property="_HEX7__uSEe-00J9HxD6GXA"/>
+</xmi:XMI>
